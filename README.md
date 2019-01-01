@@ -1,4 +1,4 @@
-# Cloud-automation-manager
+# Intelligent Infrastructure Alerts
 
 IBM Cloud Automation Manager (CAM) is a cloud management solution on IBM Cloud Private (ICP) for deploying cloud infrastructure in multiple clouds with an optimized user experience. 
 
