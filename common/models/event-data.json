@@ -1,0 +1,90 @@
+{
+  "name": "EventData",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+
+    "deduplicationKey": {
+      "type": "string",
+      "required": false
+    },
+    "displayId": {
+      "type": "string",
+      "required": false
+    },
+    "severity": {
+      "type": "number",
+      "required": false
+    },
+    "summary": {
+      "type": "string",
+      "required": false
+    },
+    "eventState": {
+      "type": "string",
+      "required": false
+    },
+    "__DecisionID__": {
+      "type": "string",
+      "required": false
+    },
+    "firstOccurrence": {
+      "type": "date",
+      "required": false
+    },
+    "flapping": {
+      "type": "boolean",
+      "required": false
+    },
+    "incidentUuid": {
+      "type": "string",
+      "required": false
+    },
+    "instanceUuid": {
+      "type": "string",
+      "required": false
+    },
+    "lastOccurrence": {
+      "type": "date",
+      "required": false
+    },
+    "priority": {
+      "type": "number",
+      "required": false
+    },
+    "resource": {
+      "type": "string",
+      "required": false
+    },
+    "sender": {
+      "type": "string",
+      "required": false
+    },
+    
+    "severity10": {
+      "type": "number",
+      "required": false
+    },
+    
+    "type": {
+      "type": "string",
+      "required": false
+    },
+    "eventURL": {
+      "type": "string",
+      "required": false
+    },
+    "actionDescription": {
+       "type": "string",
+      "required": false
+    }
+
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
